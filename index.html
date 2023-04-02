@@ -21,7 +21,7 @@
     <!-- -------------navbar---------------- -->
     <header>
         <div class="navbar">
-            <!-- --------toggle slider ------ -->
+            <!-- -------- toggle left slider ------ -->
             <div class="dropdown dropdown-start md:hidden">
                 <label tabindex="1" class="btn btn-ghost btn-circle avatar">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
@@ -32,7 +32,7 @@
                 </label>
                 <ul tabindex="1" class="menu menu-compact dropdown-content mt-3 bg-white rounded-box w-[60vw] h-[80vh]">
                     <div class="h-[100vh] p-3 mx-6  space-y-2 md:w-60 bg-white md:hidden block">
-                        <div class="flex justify-center">
+                        <div class="flex justify-center w-[60%] mx-auto">
                             <img src="Assent/LayOut_image/Left_Slider/Mocdit_LG_Logo.png" alt="w-full " class="">
                         </div>
 
@@ -170,9 +170,11 @@
             <div class="flex-none hidden md:grid mt-2">
                 <ul class="menu menu-horizontal px-1">
 
-                    <li class="admin_li_bg mt-2 reletive z-50">
-                        <a class="admin_box">
-                            <img class="w-6" src="Assent/LayOut_image/Navbar/Mocdit_small-logo.png" alt=""> Mocdit
+                    <li class="admin_li_bg reletive z-50">
+                        <a class="admin_box font-bold">
+                            <div class="small_logo bg-slate-200 h-10 w-12 rounded-lg flex justify-center items-center">
+                                <img class="w-6" src="Assent/LayOut_image/Navbar/Mocdit_small-logo.png" alt="">
+                            </div> Mocdit
                             <svg class="fill-current rounded" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
                                 viewBox="0 0 24 24">
                                 <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
@@ -199,7 +201,7 @@
                         <a class="admin_box">
 
                             <div class="block">
-                                <h1 class="text-end">Fardin shek</h1>
+                                <h1 class="text-end font-medium">Fardin shek</h1>
                                 <p class="text-end text-blue-600">admin</p>
 
                             </div>
@@ -219,10 +221,10 @@
     </header>
     <!-- -------------navbar end---------------- -->
 
-    <section class="flex bg-[#F1F1F1] pb-20 reletive">
+    <section class="flex bg-[#F1F1F1] pb-20 reletive mt-5">
         <!-- -----------left side slider------------- -->
         <div class="left_slider_box h-[100vh] pl-5 pr-10 space-y-2 bg-white hidden md:block py-10">
-            <div class="flex justify-start">
+            <div class="flex justify-start  w-[60%] mx-auto">
                 <img src="Assent/LayOut_image/Left_Slider/Mocdit_LG_Logo.png" alt="logo_img" class="logo_img">
             </div>
 
@@ -326,8 +328,8 @@
                                     </p>
                                 </div>
 
-                                <div class="grid grid-cols-1 md:grid-cols-1 gap-x-1 lg:grid-cols-2 mt-4 gap-y-2">
-                                    <div class="card bg-white flex py-2">
+                                <div class="grid grid-cols-1 md:grid-cols-1 gap-x-2 lg:grid-cols-2 mt-4 gap-y-2">
+                                    <div class="card bg-white flex py-4">
                                         <div class="flex items-center justify-evenly">
                                             <div class="card_bg flex justify-center">
                                                 <img src="./Assent/Page02/mocdit mail.png" alt="">
@@ -344,7 +346,7 @@
                                         </div>
 
                                     </div>
-                                    <div class="card bg-white flex py-2">
+                                    <div class="card bg-white flex py-4">
                                         <div class="flex items-center justify-evenly">
                                             <div class="card_bg flex justify-center">
                                                 <img src="./Assent/Page02/mocdit mail.png" alt="">
@@ -443,54 +445,57 @@
                         <div class="grid md:grid-cols-2 lg:grid-cols-3 grid-cols-1 gap-5 item-center justify-center">
 
                             <div
-                                class="card grid grid-cols-2 md:grid-cols-2 justify-center bg-[#FFFFFF] py-5 px-3 items-center">
+                                class="card grid grid-cols-2 md:grid-cols-2 justify-center md:justify-center bg-[#FFFFFF] py-5 px-3 items-center">
                                 <div class="flex items-center">
                                     <div class="card_bg flex rounded-md">
-                                        <img class="w-[100%] px-1 object-cover card_image_sizing"
-                                            src="./Assent/Page02/mocdit mail.png" alt="">
+                                        <img class="w-[100%] px-1 object-cover" src="./Assent/Page02/mocdit mail.png"
+                                            alt="">
                                     </div>
                                     <div class="justify-start items-center ">
                                         <h1 class="font-extrabold text-[14px] text-center">Mocdt Mail</h1>
-                                        <p class=" text-[#8E8C99] text-center text-[14px] ml-5 xs:ml-3">mail.mocdt.com
+                                        <p class=" text-[#8E8C99] text-center text-[14px] ml-2 xs:ml-3">mail.mocdt.com
                                         </p>
                                     </div>
                                 </div>
                                 <div
                                     class="flex bg-black rounded-lg justify-center items-center md:ml-3 lg:ml-5 ml-2 w-[130px] h-[45px]">
-                                    <div class="btn_img flex justify-center items-center">
+                                    <div class="btn_img flex justify-end md:justify-center items-center">
                                         <img class="" src="./Assent/Page02/user.png" alt="">
                                     </div>
                                     <button class="text-white pl-3 py-5">Login</button>
                                 </div>
                             </div>
+
                             <div
-                                class="card grid grid-cols-2 md:grid-cols-2 justify-center bg-[#FFFFFF] py-5 px-3 items-center">
+                                class="card grid grid-cols-2 md:grid-cols-2 justify-center md:justify-center bg-[#FFFFFF] py-5 px-3 items-center">
                                 <div class="flex items-center">
                                     <div class="card_bg flex rounded-md">
-                                        <img class="w-[100%] px-1 object-cover card_image_sizing"
-                                            src="./Assent/Page02/Flies 2.png" alt="">
+                                        <img class="w-[100%] px-1 object-cover" src="./Assent/Page02/Flies 2.png"
+                                            alt="">
                                     </div>
                                     <div class="justify-start items-center ">
                                         <h1 class="font-extrabold text-[14px] text-center">Mocdt Files</h1>
-                                        <p class=" text-[#8E8C99] text-center text-[14px] ml-5 xs:ml-3">files.mocdt.app
+                                        <p class=" text-[#8E8C99] text-center text-[14px] ml-2 xs:ml-3">files.mocdt.app
                                         </p>
                                     </div>
                                 </div>
                                 <div
                                     class="flex bg-black rounded-lg justify-center items-center md:ml-3 lg:ml-5 ml-2 w-[130px] h-[45px]">
-                                    <div class="btn_img flex justify-center items-center">
+                                    <div class="btn_img flex justify-end md:justify-center items-center">
                                         <img class="" src="./Assent/Page02/user.png" alt="">
                                     </div>
                                     <button class="text-white pl-3 py-5">Login</button>
                                 </div>
                             </div>
+
                             <div
-                                class="card grid grid-cols-2 md:grid-cols-2 justify-center bg-[#FFFFFF] py-5 px-3 items-center">
+                                class="card grid grid-cols-2 md:grid-cols-2 justify-center md:justify-center bg-[#FFFFFF] py-5 px-3 items-center">
                                 <div class="flex items-center">
                                     <div class="card_bg flex rounded-md">
                                         <img class="w-[100%] px-1 object-cover card_image_sizing"
                                             src="./Assent/Page02/ana.png" alt="">
                                     </div>
+
                                     <div class="justify-start items-center ">
                                         <h1 class="font-extrabold text-[14px] text-center">Mocdt Ana</h1>
                                         <p class=" text-[#8E8C99] text-center text-[14px] ml-2 xs:ml-3">as.mocdt.com
@@ -499,7 +504,7 @@
                                 </div>
                                 <div
                                     class="flex bg-black rounded-lg justify-center items-center md:ml-3 lg:ml-5 ml-2 w-[130px] h-[45px]">
-                                    <div class="btn_img flex justify-center items-center">
+                                    <div class="btn_img flex justify-end md:justify-center items-center">
                                         <img class="" src="./Assent/Page02/user.png" alt="">
                                     </div>
                                     <button class="text-white pl-3 py-5">Login</button>
@@ -507,68 +512,72 @@
                             </div>
                             <!-- -------- lase 3 cards---------- -->
                             <div
-                                class="card grid grid-cols-2 md:grid-cols-2 justify-center bg-[#FFFFFF] py-5 px-3 items-center">
+                                class="card grid grid-cols-2 md:grid-cols-2 justify-center md:justify-center bg-[#FFFFFF] py-5 px-3 items-center">
                                 <div class="flex items-center">
                                     <div class="card_bg flex rounded-md">
                                         <img class="w-[100%] px-1 object-cover card_image_sizing"
                                             src="./Assent/Page02/Axdrof.png" alt="">
                                     </div>
+
                                     <div class="justify-start items-center ">
                                         <h1 class="font-extrabold text-[14px] text-center">Axdrof</h1>
-                                        <p class=" text-[#8E8C99] text-center text-[14px] ml-5 xs:ml-3">axdrof.com
+                                        <p class=" text-[#8E8C99] text-center text-[14px] ml-2 xs:ml-3">axdrof.com
                                         </p>
                                     </div>
                                 </div>
                                 <div
                                     class="flex bg-black rounded-lg justify-center items-center md:ml-3 lg:ml-5 ml-2 w-[130px] h-[45px]">
-                                    <div class="btn_img flex justify-center items-center">
+                                    <div class="btn_img flex justify-end md:justify-center items-center">
                                         <img class="" src="./Assent/Page02/user.png" alt="">
                                     </div>
                                     <button class="text-white pl-3 py-5">Login</button>
                                 </div>
                             </div>
                             <div
-                                class="card grid grid-cols-2 md:grid-cols-2 justify-center bg-[#FFFFFF] py-5 px-3 items-center">
+                                class="card grid grid-cols-2 md:grid-cols-2 justify-center md:justify-center bg-[#FFFFFF] py-5 px-3 items-center">
                                 <div class="flex items-center">
                                     <div class="card_bg flex rounded-md">
                                         <img class="w-[100%] px-1 object-cover card_image_sizing"
                                             src="./Assent/Page02/mocdt clouc.png" alt="">
                                     </div>
+
                                     <div class="justify-start items-center ">
-                                        <h1 class="font-extrabold text-[14px] text-right">Mocdt Cloud</h1>
-                                        <p class=" text-[#8E8C99] text-center text-[14px] ml-5 xs:ml-3">mocdt.cloud
+                                        <h1 class="font-extrabold text-[14px] text-center">Mocdt Cloud</h1>
+                                        <p class=" text-[#8E8C99] text-center text-[14px] ml-2 xs:ml-3">mocdt.cloud
                                         </p>
                                     </div>
                                 </div>
                                 <div
                                     class="flex bg-black rounded-lg justify-center items-center md:ml-3 lg:ml-5 ml-2 w-[130px] h-[45px]">
-                                    <div class="btn_img flex justify-center items-center">
+                                    <div class="btn_img flex justify-end md:justify-center items-center">
                                         <img class="" src="./Assent/Page02/user.png" alt="">
                                     </div>
                                     <button class="text-white pl-3 py-5">Login</button>
                                 </div>
                             </div>
                             <div
-                                class="card grid grid-cols-2 md:grid-cols-2 justify-center bg-[#FFFFFF] py-5 px-3 items-center">
+                                class="card grid grid-cols-2 md:grid-cols-2 justify-center md:justify-center bg-[#FFFFFF] py-5 px-3 items-center">
                                 <div class="flex items-center">
                                     <div class="card_bg flex rounded-md">
                                         <img class="w-[100%] px-1 object-cover card_image_sizing"
                                             src="./Assent/Page02/mocdit studeo.png" alt="">
                                     </div>
+
                                     <div class="justify-start items-center ">
-                                        <h1 class="font-extrabold text-[14px] text-right">Mocdt Studio</h1>
-                                        <p class=" text-[#8E8C99] text-left text-[14px] ml-5 xs:ml-3">mocdt.studio
+                                        <h1 class="font-extrabold text-[14px] text-center">Mocdt Studio</h1>
+                                        <p class=" text-[#8E8C99] text-center text-[14px] ml-2 xs:ml-3">mocdt.studio
                                         </p>
                                     </div>
                                 </div>
                                 <div
                                     class="flex bg-black rounded-lg justify-center items-center md:ml-3 lg:ml-5 ml-2 w-[130px] h-[45px]">
-                                    <div class="btn_img flex justify-center items-center">
+                                    <div class="btn_img flex justify-end md:justify-center items-center">
                                         <img class="" src="./Assent/Page02/user.png" alt="">
                                     </div>
                                     <button class="text-white pl-3 py-5">Login</button>
                                 </div>
                             </div>
+
 
 
                         </div>
@@ -710,6 +719,11 @@
                         <!-- ---second grid--- -->
                         <div class="bolock second_grid mt-10 md:mt-3 pt-32 md:pt-0">
                             <h1 class="">Security Check-up</h1>
+                            <!-- <div class="flex justify-center items-center w-[100%] z-50">
+                                <div class="security_image mx-auto relative z-10">
+                                    <h1 class="">Security Check-up</h1>
+                                </div>
+                            </div> -->
                             <div class="flex mt-3 md:justify-start justify-center">
                                 <div
                                     class="grid items-center grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-1 justify-center">
